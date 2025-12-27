@@ -76,7 +76,7 @@ When scanning double-sided documents with a standard single-sided scanner (ADF),
 
 #### 1. Download Source Code
 ```bash
-git clone https://github.com/your-username/meow-pdf-merger.git
+git clone https://github.com/Ansangho1005/MEOW-PDF-MERGER.git
 cd meow-pdf-merger
 ```
 
@@ -104,7 +104,7 @@ You can create a standalone executable using PyInstaller.
 pyinstaller "MEOW PDF MERGER.spec"
 
 # Or using custom command
-pyinstaller --noconsole --onefile --windowed --name="MEOW PDF MERGER" --icon="meow-pdf.icns" --collect-all customtkinter --collect-all tkinterdnd2 ui_improved.py
+pyinstaller --noconsole --onefile --windowed --name="MEOW PDF MERGER" --icon="MEOW-PDF-MERGER_logo.icns" --collect-all customtkinter --collect-all tkinterdnd2 ui_improved.py
 ```
 
 ### ⚠️ Precautions
