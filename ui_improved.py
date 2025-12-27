@@ -158,7 +158,7 @@ app.resizable(True, True)
 left = ctk.CTkFrame(app)
 left.pack(side="left", fill="y", padx=20, pady=20)
 
-ctk.CTkLabel(left, text="PDF 드래그&드롭 또는 클릭", font=("Helvetica", 20)).pack(pady=(0,20))
+ctk.CTkLabel(left, text="PDF MERGER", font=("Helvetica", 20)).pack(pady=(0,20))
 
 # 홀수용 drop zone & click binding
 lbl_odd = ctk.CTkLabel(left,

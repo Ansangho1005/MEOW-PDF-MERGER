@@ -37,15 +37,16 @@ def merge_pdfs(odd_pdf_path, even_pdf_path, output_pdf_path):
     print(f"PDF 파일이 성공적으로 병합되었습니다. 저장 경로: {output_pdf_path}")
 
 
-# PDF 파일 경로
-odd_pdf_path = "홀수페이지.pdf"
-even_pdf_path = "짝수페이지_역순.pdf"
-output_pdf_path = "결과.pdf"
+# PDF 병합 실행 예시
+if __name__ == "__main__":
+    # 사용 예시 (직접 경로를 입력해서 실행할 경우)
+    odd_pdf_path = "odd_pages.pdf"   # 홀수 페이지 파일 (1, 3, 5...)
+    even_pdf_path = "even_pages.pdf" # 짝수 페이지 파일 (역순: 6, 4, 2...)
+    output_pdf_path = "merged_output.pdf"
 
-# PDF 병합 실행
-
-odd_pdf_path = ""
-even_pdf_path = ""
-output_pdf_path = "/Users/ash/Library/Mobile Documents/com~apple~CloudDocs/편입자료/스캔/HP/sibal.pdf"
-
-merge_pdfs(odd_pdf_path, even_pdf_path, output_pdf_path)
+    # 파일이 실제로 존재할 때만 실행
+    import os
+    if os.path.exists(odd_pdf_path) and os.path.exists(even_pdf_path):
+        merge_pdfs(odd_pdf_path, even_pdf_path, output_pdf_path)
+    else:
+        print("예시: 홀수/짝수 PDF 경로를 설정하고 merge_pdfs 함수를 호출하세요.")
