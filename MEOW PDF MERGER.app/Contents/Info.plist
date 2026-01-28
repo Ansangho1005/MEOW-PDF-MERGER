@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>MEOW PDF MERGER</string>
 	<key>CFBundleIconFile</key>
-	<string>icon-windowed.icns</string>
+	<string>MEOW-PDF-MERGER_logo.icns</string>
 	<key>CFBundleIdentifier</key>
 	<string>MEOW PDF MERGER</string>
 	<key>CFBundleInfoDictionaryVersion</key>

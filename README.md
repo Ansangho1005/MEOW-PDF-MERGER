@@ -3,7 +3,9 @@
 **MEOW PDF MERGER**는 단면 스캔만 지원하는 스캐너(ADF) 사용자를 위한 편리한 PDF 병합 도구입니다.  
 **MEOW PDF MERGER** is a convenient PDF merge tool for users of scanners that only support single-sided scanning (ADF).
 
-![Screenshot](screenshot.png)
+<div align="center">
+<img width="100%" alt="GHBanner" src="screenshot.png" />
+</div>
 
 ---
 
